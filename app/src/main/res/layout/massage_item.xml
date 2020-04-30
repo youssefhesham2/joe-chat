@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gravity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/backgroundcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/massage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:text="massage here"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02:00 pm"
+                android:textSize="12sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:gravity="end"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/seen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="seen"
+                    android:textColor="#4CAF50"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

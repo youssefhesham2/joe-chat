@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_list_imag"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/online"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                app:civ_border_width="10dp"
+                app:civ_border_color="#4CAF50"
+                android:background="#4CAF50"
+                android:layout_toEndOf="@+id/chat_list_imag"
+                android:layout_toRightOf="@+id/chat_list_imag"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/chat_list_imag"
+                android:layout_marginLeft="-15dp"
+                android:visibility="gone"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/offline"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                app:civ_border_width="10dp"
+                app:civ_border_color="#7E817E"
+                android:background="#7E817E"
+                android:layout_toEndOf="@+id/chat_list_imag"
+                android:layout_toRightOf="@+id/chat_list_imag"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/chat_list_imag"
+                android:visibility="gone"
+                android:layout_marginLeft="-15dp"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat_friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="youssef hesham"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/last_massage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:padding="5dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.mainactivity.enterphone_fragment.EnterPhone_fragment">
+
+    <EditText
+        android:id="@+id/Verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Verification"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"></EditText>
+
+    <!-- <EditText
+        android:id="@+id/Verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Verification code"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></EditText>
+        -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid2"
+        android:text="next"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/next2"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Resend code"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:id="@+id/resend_code"
+            android:visibility="gone"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:textColor="#000"
+            android:id="@+id/timer"
+            android:drawableStart="@drawable/timericon"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+</LinearLayout>

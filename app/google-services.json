@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414219030831",
+    "firebase_url": "https://joes-chat.firebaseio.com",
+    "project_id": "joes-chat",
+    "storage_bucket": "joes-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414219030831:android:5e6a66e1d10492e73311da",
+        "android_client_info": {
+          "package_name": "com.example.joeschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414219030831-m6mcakf11qt8pnd3ukiunjnr74n3kcgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joeschat",
+            "certificate_hash": "87ea3e51bb20a5c5a08c4e25f9ce470608fac41d"
+          }
+        },
+        {
+          "client_id": "414219030831-vgj4n26fpdqk3ue5fu0isc9aj2u5kvjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFuLl-x--d9uokANIb63-oxmMMklRdXgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414219030831-vgj4n26fpdqk3ue5fu0isc9aj2u5kvjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

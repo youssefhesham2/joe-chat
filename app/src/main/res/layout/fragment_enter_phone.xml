@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.mainactivity.enterphone_fragment.EnterPhone_fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="joe`s chat"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:id="@+id/phone_number_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  phone number"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:drawableStart="@drawable/phoneicon"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat"></EditText>
+
+    <EditText
+        android:id="@+id/mail_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat"></EditText>
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat"></EditText>
+    <!-- <EditText
+        android:id="@+id/Verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Verification code"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solid"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"></EditText>
+        -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/solid2"
+        android:text="next"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/next"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlCompat" />
+
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="i'dont have acoount?"
+         android:layout_marginTop="10dp"
+         android:textSize="16sp"
+         android:clickable="true"
+         android:onClick="idonthaveaccount"-->
+        />
+
+</LinearLayout>
